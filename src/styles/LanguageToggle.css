@@ -1,0 +1,30 @@
+.language-toggle {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  z-index: 1000;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.language-toggle:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .language-toggle {
+    top: 85px;
+    right: 15px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+} 
